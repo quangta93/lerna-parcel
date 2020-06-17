@@ -7,11 +7,9 @@
   "license": "ISC",
   "main": "lib/foo.js",
   "scripts": {
-    "start": "parcel lib/index.html"
+    "start": "parcel lib/index.html",
+    "build": "parcel build lib/index.html"
   },
-  "browserslist": [
-    "last 2 Chrome versions"
-  ],
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
